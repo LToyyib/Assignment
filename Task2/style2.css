@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+}
+.fa {
+  padding: 10px;
+  font-size: 35px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #f7026d;
+  color: white;
+}
+.fa-email {
+  background: #f7026d;
+  color: white;
+}
+.fa-envelope {
+  background: #ff6600;
+  color: white;
+  }
+.fa-github {
+  background: #000000;
+  color: white;
+  }
+.fa-whatsapp {
+  background: #2f9231;
+  color: white;
+  }
+.fa-phone {
+  background: #ebdbdb;
+  color: #ff0000;
+  }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
