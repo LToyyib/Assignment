@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(115, 178, 190);
+}
+
+#Gender{ 
+position: relative;
+  left: 73px;
+background-color: #49dabd; 
+color: rgb(31, 22, 5); 
+width: 55%;
+margin: 0 auto;
+}

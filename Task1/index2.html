@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style2.css" rel="stylesheet" type="text/css" />
+  <title>Registration Page</title>
+</head>
+<header>
+  <h1>Welcome to Erudites membership registration Page</h1>
+  <hr>
+</header>
+
+<body>
+  <p>Fill the form below to register</p>
+  <form action="index4.html">
+    <table>
+      <tr>
+        <td><label for="fname">First Name:</label></td>
+        <td><input type="text" name="fname" id="fname" maxlength="10" minlength="3" required></td>
+      </tr>
+      <tr>
+        <td><label for="lname"> Last Name:</label></td>
+        <td><input type="text" name="lname" id="lname" maxlength="10" minlength="3" required></td>
+      </tr>
+      <tr>
+        <td><label for="phone"> Phone Number:</label></td>
+        <td><input type="tel" name="Phone" id="Phone" pattern="[0-9]{11}" placeholder="12345678910" required></td>
+      </tr>
+      <tr>
+        <td><label for="email"> Email Address:</label></td>
+        <td><input type="email" name="email" id="email" required placeholder="abc@ymail.com"
+            pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Gender"> Gender:</label>
+          <select name="Gender" id="Gender">
+            <option value="Male"> Male</option>
+            <option value="Female"> Female</option>
+          </select>
+        </td>
+
+      </tr>
+      <tr>
+        <td><label for="dob">Date of Birth:</label></td>
+        <td><input type="date" name="dob" placeholder="2000-01-01" min="2000-01-01" max="2022-09-06" required>
+      </tr>
+      <tr>
+        <td><label for="Color"> Favorite color:</label></td>
+        <td><input type="color" name="color" id="color" required></td>
+      </tr>
+      <tr>
+        <td><input type="submit" value="Register" id=""></td>
+      </tr>
+
+    </table>
+  </form>
+
+</body>
+
+</html>
